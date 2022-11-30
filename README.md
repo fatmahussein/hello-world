@@ -1,53 +1,43 @@
 <a name="readme-top"></a>
 
-
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Getting Started
-- Authors
-- - Acknowledgements
-- License
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  
+    
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 -- [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="Hello-World"></a>
+# 📖 [Hello-world] <a name="Hello-World"></a>
 
 
-**[your_project__name]** is among the first project built by a developer who is in the early stages of learning how to code.
+**[Hello-world]** is among the first project built by a developer who is in the early stages of learning how to code.
 It demonstrates how to connect your local editor code remotely to your github repository.
 
-## 🛠 Built With 
-<a href="Node Js"></a>
-<a href="HTML"></a>
+Furthermore, In this project, you will learn to use linters to fix any error in your code.
 
-<!-- Features -->
+## 🛠 Built With  <a name="built-with"></a>
 
-### Key Features <a name="key-features"></a>
+### Tech Stack <a name="tech-stack"></a>
 
+  <summary>Javascript runtime environment</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en/">Node JS</a></li>
+  </ul>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  <summary>Version control</summary>
+  <ul>
+    <li><a href="github.com">Git Hub</a></li>
+  </ul>
+</details
 
 
 <!-- GETTING STARTED -->
@@ -62,50 +52,44 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Visual Studio Code as editor
-Node JS
-Git bash
-Git hub account
+-Visual Studio Code as editor
+-Node JS
+-Git bash
+-Git hub account
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
   git clone[ (https://github.com/fatmahussein/hello-world)]
 ```
---->
+## Linters
 
+A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs(source: [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)).
 
-### Usage
+There are a few reasons for using linters:
 
-To run the project, execute the following command:
+1. Catching syntax errors is more efficient. There is no need to debug simple mistakes like typos - the linter does it for you.
+2. The entire codebase looks like written by one person.
+3. Programmers can focus on solving problems, instead of cleaning up the code.
 
+## Set-up linters in your local environment i.e on your editor
 
-Run it on the Visual Studio Code live server or an explorer of your choice
+**Note**: The `npm` package manager is going to create a `node_modules` directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a [`.gitignore`](https://git-scm.com/docs/gitignore) file and add `node_modules` to it:
 
-
-### Run tests
-
-To run tests, run the following command:
-
-Run it on the Visual Studio Code live server or an explorer of your choice
+```
+# .gitignore
+node_modules/
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors
-
-<a name="Fatuma Hussein"></a>
-<a name="Ahmed Sohail"></a>
-<a name="Ismail"></a>
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
 
@@ -114,12 +98,17 @@ Run it on the Visual Studio Code live server or an explorer of your choice
 - LinkedIn: (https://www.linkedin.com/in/fatuma-hussein-48149917b/)
 
 
+👤 **Author2**
+ 
+- GitHub:(https://github.com/batoorsohail)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+👤 **Author3**
+ 
+- GitHub:(https://github.com/ismailmunyentwari9)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🤝 Contributing <a name="contributing"></a>
 
 <!-- CONTRIBUTING -->
 
@@ -127,42 +116,37 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please keep on coding. NEVER GIVE UP! We are here to collaborate.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can send a simple "thank you" message to the comment section.
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
 I would like to thank Microverse team for guiding us through this project.
+
 I would also like to thank Sohail and Ismail for the good collaboration that we had in successfully completing this project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **[Question_1]**
 Where can we get the set up for node JS installation?
+
   - [Answer_1]
 Please click on the link https://nodejs.org/en/download/  to get the  setup.
--
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
