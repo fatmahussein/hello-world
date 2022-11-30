@@ -84,7 +84,41 @@ There are a few reasons for using linters:
 # .gitignore
 node_modules/
 ```
+**NOTE:** If you are running on Windows, you need to initialize npm to create `package.json` file. 
+   ```
+   npm init -y
+   ```
+   1. Run
+   ```
+   npm install --save-dev hint@7.x
+   ```
+   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+2. Copy [.hintrc](.hintrc) to the root directory of your project.
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
+4. Run
+   ```
+   npx hint .
+   ```
+5. Fix validation errors.
 
+### [Stylelint](https://stylelint.io/)
+
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+1. Run
+
+   ```
+   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x   ```
+
+   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+
+2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
+4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
+5. Fix linter errors.
+6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
